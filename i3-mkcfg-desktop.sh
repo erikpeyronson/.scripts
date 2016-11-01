@@ -3,7 +3,7 @@
 #!/bin/bash
 
 DIR=$HOME/.dotfiles/.config/i3     # directory containing templates
-FILES="config.base config.laptop"  # list of templates
+FILES="config.base config.desktop" # list of templates
 
 # remove old configuration file
 rm $HOME/.config/i3/config
