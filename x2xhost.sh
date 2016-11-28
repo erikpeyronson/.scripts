@@ -6,6 +6,6 @@
 
 HOST=$1
 
-source ./screenlayout/desktop-single.sh
+source $HOME/.scripts/screenlayout/desktop-single.sh
 ssh -XC $HOST x2x -east -to :0.0
-source ./screenlayout/desktop-default.sh
+source $HOME/.scripts/screenlayout/desktop-default.sh
